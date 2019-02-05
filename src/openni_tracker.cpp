@@ -106,9 +106,9 @@ void publishTransforms(const std::string& frame_id) {
             continue;
 
 
-        publishTransform(user, XN_SKEL_HEAD,           frame_id, "head");
-        publishTransform(user, XN_SKEL_LEFT_HAND,      frame_id, "right_hand");
-        publishTransform(user, XN_SKEL_RIGHT_HAND,     frame_id, "left_hand");
+        publishTransform(user, XN_SKEL_HEAD,           frame_id, "kinect_head");
+        publishTransform(user, XN_SKEL_LEFT_HAND,      frame_id, "kinect_right_hand");
+        publishTransform(user, XN_SKEL_RIGHT_HAND,     frame_id, "kinect_left_hand");
     }
 }
 
